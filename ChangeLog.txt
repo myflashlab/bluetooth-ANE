@@ -1,0 +1,9 @@
+Bluetooth Adobe AIR Native Extension
+
+
+Feb 25, 2014	>> V1.0: 	beginning of the journey!
+Feb 14, 2015 	>> 		added Android 64 support
+Nov 02, 2015 	>> V1.9: 	removed android-support-v4.jar dependency
+			 	doitflash devs merged into MyFLashLab Team.
+
+Jan 01, 2016 	>> V2.0:	upgraded to Android Studio
