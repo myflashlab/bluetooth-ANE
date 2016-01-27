@@ -1,18 +1,13 @@
 # Bluetooth ANE V2.0 (Android)
 With Bluetooth ANE, you'll have access to the Bluetooth hardware. It enable you to scan for other devices, connect to and pair with them and finally transfer data between them. This ANE has been built with consideration of connecting to Android devices to each other. if you need it for other purposes, feel free to contact us here: http://www.myflashlabs.com/contact/ (This is NOT a Bluetooth LE API)
 
-checkout here for the commercial version: http://www.myflashlabs.com/product/bluetooth-ane-adobe-air-native-extension/
+# Demo .apk
+you may like to see the ANE in action? [Download demo .apk](https://github.com/myflashlab/bluetooth-ANE/tree/master/FD/dist)
 
-![Bluetooth ANE](http://www.myflashlabs.com/wp-content/uploads/2015/11/product_adobe-air-ane-extension-bluetooth-595x738.jpg)
+**NOTICE**: the demo ANE works only after you hit the "OK" button in the dialog which opens. in your tests make sure that you are NOT calling other ANE methods prior to hitting the "OK" button.
+[Download the ANE](https://github.com/myflashlab/bluetooth-ANE/tree/master/FD/lib)
 
-you may like to see the ANE in action? check this out: https://github.com/myflashlab/bluetooth-ANE/tree/master/FD/dist
-
-**NOTICE: the demo ANE works only after you hit the "OK" button in the dialog which opens. in your tests make sure that you are NOT calling other ANE methods prior to hitting the "OK" button.**
-
-# Tutorials:
-* http://www.myflashlabs.com/build-multiplayer-games-in-adobe-air-using-bluetooth-ane/
-
-# AS3 API:
+# Air Usage:
 ```actionscript
 package 
 {
@@ -438,3 +433,29 @@ package
 
 # Requirements:
 * Android SDK 10 or higher
+
+# Commercial Version
+http://www.myflashlabs.com/product/bluetooth-ane-adobe-air-native-extension/
+
+![Bluetooth ANE](http://www.myflashlabs.com/wp-content/uploads/2015/11/product_adobe-air-ane-extension-bluetooth-595x738.jpg)
+
+# Tutorials
+[How to embed ANEs into **FlashBuilder**, **FlashCC** and **FlashDevelop**](https://www.youtube.com/watch?v=Oubsb_3F3ec&list=PL_mmSjScdnxnSDTMYb1iDX4LemhIJrt1O)  
+[Step by step tutorial showing you how to use this ANE to make a multiplayr-game](http://www.myflashlabs.com/build-multiplayer-games-in-adobe-air-using-bluetooth-ane/)  
+
+# Changelog
+*Jan 01, 2016 - V2.0*
+* upgraded to Android Studio
+
+
+*Nov 02, 2015 - V1.9*
+* removed android-support-v4.jar dependency
+* doitflash devs merged into MyFLashLab Team
+
+
+*Feb 14, 2015 - V1.5*
+* added Android 64 support
+
+
+*Feb 25, 2014 - V1.0*
+* beginning of the journey!
