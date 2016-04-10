@@ -134,9 +134,6 @@ package
 			_txt.scaleX = _txt.scaleY = DeviceInfo.dpiScaleMultiplier;
 			this.addChild(_txt);
 			
-			// required only if you are a member of the club
-			Bluetooth.clubId = "paypal-address-you-used-to-join-the-club";
-			
 			// initialize the extension
 			_ex = new Bluetooth();
 			_ex.addEventListener(BluetoothEvent.BLUETOOTH_STATE , bluetoothState);

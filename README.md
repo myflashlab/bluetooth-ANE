@@ -429,10 +429,18 @@ package
 ```xml
 <uses-permission android:name="android.permission.BLUETOOTH" />
 <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+<!-- 	
+	Required for Bluetooth to work properly from Android 6.0 or higher. More info here: 
+	http://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#behavior-hardware-id 
+-->
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 ```
 
 # Requirements:
 * Android SDK 10 or higher
+* Air SDK 19 or higher
 
 # Commercial Version
 http://www.myflashlabs.com/product/bluetooth-ane-adobe-air-native-extension/
