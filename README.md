@@ -1,6 +1,9 @@
 # Bluetooth ANE V2.0 (Android)
 With Bluetooth ANE, you'll have access to the Bluetooth hardware. It enable you to scan for other devices, connect to and pair with them and finally transfer data between them. This ANE has been built with consideration of connecting to Android devices to each other. if you need it for other purposes, feel free to contact us here: http://www.myflashlabs.com/contact/ (This is NOT a Bluetooth LE API)
 
+# asdoc
+[find the latest asdoc for this ANE here.](http://myflashlab.github.io/asdoc/com/myflashlab/air/extensions/bluetooth/package-detail.html)
+
 # Demo .apk
 you may like to see the ANE in action? [Download demo .apk](https://github.com/myflashlab/bluetooth-ANE/tree/master/FD/dist)
 
